@@ -1,0 +1,464 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 25rem;
+  width: 30rem;
+  border: 1px solid #eeeeee;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.topbar-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 10vh;
+  background: #0b3c22;
+}
+
+.form-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-text-login {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #0b3c22;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 15rem;
+  height: 30px;
+}
+
+.form-container label {
+  margin-right: 12rem;
+}
+
+.Adviser-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Topbar-container-adviser {
+  margin-right: auto;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card-container-adviserpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  margin: 20px;
+}
+
+.Card-container-adviserpage img:hover {
+  cursor: pointer;
+  transition: ease 0.3s;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.AdviserGate-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdviserGate-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.AdviserGate-row-container img {
+  margin: 20px;
+}
+
+.Adviser-table {
+  border-collapse: collapse;
+}
+
+.Adviser-table thead tr th {
+  font-size: 18px;
+  padding: 5px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgb(4, 51, 0);
+}
+
+.Adviser-table tbody tr td {
+  font-size: 14px;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.AdviserStudent-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdviserStudent-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.AdviserVerify-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdviserVerify-row-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+
+.gatecardverif {
+  margin-right: 100px;
+}
+
+.AdviserForm-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdviserForm-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Appform {
+  margin-right: 40px;
+  font-size: 12px;
+  width: 40rem;
+  height: 73rem;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eeeeee;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.Appform-topbar-row4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 95%;
+  height: 60vh;
+  margin-left: 15px;
+  background: #eeeeee;
+}
+
+.table-textfield {
+  background: #eee;
+  text-align: center;
+  height: 12px;
+  width: 40px;
+  border-bottom: 1px black solid;
+}
+
+.Appform-topbar-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Appform-topbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Appform-topbar-row2 {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Appform-topbar-row3 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.Left-side {
+  margin-left: 20px;
+}
+
+.Appform-topbar-row5 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 2px solid black;
+}
+
+.director {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Appform-bottombar-row1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Appform-bottombar-row2 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.Appform-bottombar-row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+.Left-bottom {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+
+.Left-side {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Left-bottom input,
+.Right-bottom input {
+  width: 10rem;
+}
+
+.Right-bottom {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Appform-bottombar-row4 {
+  margin-left: 20px;
+}
+
+.Appform-bottombar-row5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.admin-signiture-bottom {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Date1 {
+  margin: 20px;
+  margin-right: 70px;
+  margin-top: 40px;
+}
+
+.table-content {
+  margin-top: 20px;
+  color: black;
+  width: 25rem;
+  border-collapse: collapse;
+}
+
+.th-content {
+  color: Black;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.td-content {
+  font-size: 11px;
+}
+
+.AcceptContainer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  border: 1px solid#eee;
+  background: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.button-container-accept {
+  display: flex;
+  flex-direction: row;
+}
+
+.Button-container-redirect {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+.button-div {
+  margin-left: 10px;
+}
+
+.Link:hover,
+.Link label:hover {
+  cursor: pointer;
+  color: rgb(236, 236, 1);
+}
+
+.Admin-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Admin-container-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Button-admin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.ViewAchievers-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Toplogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ViewArchive-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ArchiveList-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ViewEditUser-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  border: 2px solid #0b3c22;
+  outline: none;
+}
+
+.ViewEditSubject-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ViewEditSubjectPanel-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Toplogo-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.AdminAppForm-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.semester-label {
+  font-size: 14px;
+  margin-right: 160px;
+}
+
+.modal h2 {
+  margin-bottom: 40px;
+}

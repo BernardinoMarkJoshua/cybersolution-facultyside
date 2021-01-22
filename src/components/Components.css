@@ -1,0 +1,101 @@
+.NavbarAdmin-container {
+  height: 13vh;
+  background: #0b3c22;
+}
+
+.NavbarAdmin-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Admin-logo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Admin-logo-container .bold1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.Admin-logo-container label {
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.ics-logo {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+  margin-left: 65rem;
+}
+
+.btn--standard {
+  border: none;
+  outline: none;
+  background: #0b3c22;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.btn--outlined {
+  border: 1px solid gray;
+  background: white;
+  color: gray;
+}
+
+.btn--small {
+  padding: 10px 14px;
+}
+
+.btn--normal {
+  padding: 12px 16px;
+}
+
+.btn--large {
+  padding: 14px 18px;
+}
+
+.btn--superliit {
+  margin-left: 10px;
+  padding: 5px 5px;
+}
+.red {
+  background: rgb(247, 58, 58);
+  border: 1px solid rgb(247, 58, 58);
+}
+
+.green {
+  color: white;
+  background: #0b3c22;
+  border: 1px solid #0b3c22;
+}
+
+.yellow {
+  color: white;
+  background: rgb(199, 199, 0);
+}
+
+.gray {
+  color: black;
+  background: rgb(173, 173, 173);
+}
+
+.green:hover,
+.yellow:hover,
+.gray:hover,
+.red:hover {
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
