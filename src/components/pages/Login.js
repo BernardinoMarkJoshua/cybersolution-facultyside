@@ -37,7 +37,7 @@ function Login() {
                 </div>
 
                 <form className='form-container' onSubmit={redirect}>
-                    <label>user ID</label>
+                    <label>FacultyID</label>
                     <input type="text" name='id' onChange={onChange} required/>
                     <label>Password</label>
                     <input type="password" required/>
