@@ -132,6 +132,9 @@ function AcceptApplicationForm() {
                 <label>Please select action for this appform.</label>
                 <div className="button-container-accept">
                     <Button>Accept</Button>
+                    <Link to='/admin'>
+                        <Button buttonColor='red'>Back</Button>
+                    </Link>
                 </div>
             </div>
         </div>
