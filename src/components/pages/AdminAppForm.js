@@ -2,6 +2,8 @@ import React from 'react'
 import NavbarAdmin from '../NavbarAdmin'
 import IcsLogo from '../assets/ics.png'
 import WmsuLogo from '../assets/wmsu.png'
+import {Link} from 'react-router-dom'
+import {Button} from '../Button'
 function AdminAppForm() {
     return (
         <div className='AdminAppForm'>
@@ -179,6 +181,14 @@ function AdminAppForm() {
                         </div>
 
                     </div>
+                </div>
+                <div className="AcceptContainer">
+                <label>Please select action for this appform.</label>
+                <div className="button-container-accept">
+                    <Link to='/archivelist'>
+                        <Button buttonColor='red'>Back</Button>
+                    </Link>
+                </div>
                 </div>
                 </div>
         </div>

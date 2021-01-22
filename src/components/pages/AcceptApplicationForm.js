@@ -3,6 +3,7 @@ import IcsLogo from '../assets/ics.png'
 import WmsuLogo from '../assets/wmsu.png'
 import {Button} from '../Button'
 import NavbarAdmin from '../NavbarAdmin'
+import {Link} from 'react-router-dom'
 
 function AcceptApplicationForm() {
     return (
@@ -132,7 +133,7 @@ function AcceptApplicationForm() {
                 <label>Please select action for this appform.</label>
                 <div className="button-container-accept">
                     <Button>Accept</Button>
-                    <Link to='/admin'>
+                    <Link to='/acceptadminappform'>
                         <Button buttonColor='red'>Back</Button>
                     </Link>
                 </div>
