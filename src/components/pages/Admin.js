@@ -20,6 +20,13 @@ function Admin() {
 
                 <div className="Admin-container-container">
                     <img src={ApproveAndEditLogo} alt="approve"/>
+
+                <div className="Button-admin">
+                    <Link className='LINK1' to='/acceptadminappform'>
+                        <Button>ACCEPT APPLICATION</Button>
+                    </Link>
+                </div>
+
                 <div className="Button-admin">
                     <Link className='LINK1' to='/viewachievers'>
                         <Button>VIEW ACHIEVERS</Button>

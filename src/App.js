@@ -14,6 +14,8 @@ import ViewEditUser from './components/pages/ViewEditUser';
 import ViewEditSubject from './components/pages/ViewEditSubject';
 import ViewEditSubjectPanel from './components/pages/ViewEditSubjectPanel';
 import AdminAppForm from './components/pages/AdminAppForm';
+import AcceptApplication from './components/pages/AcceptApplication';
+import AcceptApplicationForm from './components/pages/AcceptApplicationForm';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
           <Route path='/vieweditsubject' component={ViewEditSubject}/>
           <Route path='/vieweditsubjectpanel' component={ViewEditSubjectPanel}/>
           <Route path='/viewadminappform' component={AdminAppForm}/>
+          <Route path='/acceptadminappform' component={AcceptApplication}/>
+          <Route path='/acceptadminappformpane' component={AcceptApplicationForm}/>
         </Switch>
     </Router>
   );

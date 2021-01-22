@@ -4,9 +4,6 @@ import {Button} from '../Button'
 import {Link} from 'react-router-dom'
 
 function ViewEditSubject() {
-    const shoot = () =>{
-        alert('Removed');
-    }
 
     return (
         <div className='ViewEditSubject'>
