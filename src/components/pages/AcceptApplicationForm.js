@@ -129,14 +129,26 @@ function AcceptApplicationForm() {
 
             </div>
 
-            <div className="AcceptContainer">
-                <label>Please select action for this appform.</label>
-                <div className="button-container-accept">
-                    <Button>Accept</Button>
-                    <Link to='/acceptadminappform'>
-                        <Button buttonColor='red'>Back</Button>
-                    </Link>
+            <div className="Right-side-container">
+                <div className="AcceptContainer">
+                    <label>Please select action for this appform.</label>
+                    <div className="button-container-accept">
+                        <Button>Accept</Button>
+                        <Link to='/acceptadminappform'>
+                            <Button buttonColor='gray'>Back</Button>
+                        </Link>
+                    </div>
                 </div>
+
+                <div className="AcceptContainer">
+                    <div className="upload-box">
+                        <label>drag and drop scanned file here.</label>
+                    </div>
+
+                    <input type="file"/>
+                </div>
+
+
             </div>
         </div>
         </div>

@@ -186,7 +186,7 @@ function AdminAppForm() {
                 <label>Please select action for this appform.</label>
                 <div className="button-container-accept">
                     <Link to='/archivelist'>
-                        <Button buttonColor='red'>Back</Button>
+                        <Button buttonColor='gray'>Back</Button>
                     </Link>
                 </div>
                 </div>
